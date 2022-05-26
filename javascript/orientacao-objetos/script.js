@@ -15,7 +15,7 @@ class ContaBancaria {
 
   sacar(valor) {
     if (valor > this._saldo) {
-      return "Operação negada!";
+      return "Operacao negada!";
     }
     this._saldo = this._saldo - valor;
 
@@ -58,7 +58,7 @@ class ContaUniversitaria extends ContaBancaria{
 
   sacar(valor) {
     if (valor > 500) {
-      return "Operação negada!";
+      return "Operacao negada!";
     }
     this._saldo = this._saldo - valor;
   }
