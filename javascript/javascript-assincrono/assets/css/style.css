@@ -6,12 +6,11 @@
 
 button{
 	font-size: 20px;
-	text-transform: capitalize;
-	border: none;
-	background-color: blueviolet;
 	color: aliceblue;
+	border-color: rgb(131, 131, 222);
+	background-color: rgb(64, 28, 97);
+	border-radius: 15px;
 	padding: 10px;
-	border-radius: 5px;
 	position: fixed;
 	bottom: 10px;
 	cursor: pointer;
